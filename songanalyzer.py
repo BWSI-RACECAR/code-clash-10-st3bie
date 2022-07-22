@@ -78,14 +78,6 @@ class Solution:
 
         return output
 
-        
-
-'''
-            if (word[-1] not in end):
-                end[word[-1]] = 1
-            else:
-                end[word[-1]] += 1
-'''
 
 
 
