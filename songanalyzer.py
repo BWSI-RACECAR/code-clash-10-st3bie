@@ -56,7 +56,6 @@ class Solution:
                 else:
                     rhyme[word[-3:]] += 1
         
-        beginning = sorted(beginning.items())
         output = ""
         rhyming = 0
 
@@ -79,14 +78,6 @@ class Solution:
 
         return output
 
-        
-
-'''
-            if (word[-1] not in end):
-                end[word[-1]] = 1
-            else:
-                end[word[-1]] += 1
-'''
 
 
 
