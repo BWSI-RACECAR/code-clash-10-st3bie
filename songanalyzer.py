@@ -56,8 +56,7 @@ class Solution:
                 else:
                     rhyme[word[-3:]] += 1
         
-        for key in sorted(beginning):
-            print "%s: %s" % (key, beginning[key])
+        beginning = sorted(beginning.items())
         output = ""
         rhyming = 0
 
